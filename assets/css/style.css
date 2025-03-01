@@ -862,11 +862,11 @@ textarea.input-field {
   }
 
   .card-title {
-    font-size: 1.0rem;
+    font-size: 1.2rem;
   }
 
   .card-text, .tech-stack {
-    font-size:0.8rem ;
+    font-size:1.0rem ;
   }
 
   .btn {
