@@ -570,45 +570,6 @@ body::-webkit-scrollbar-thumb {
   font-family: var(--ff-poppins);
 }
 
-.input-field {
-  color: var(--black);
-  font-family: var(--ff-poppins);
-  font-size: var(--fs-13);
-  letter-spacing: 1.4px;
-  border: 1px solid var(--black_10);
-  padding: 10px;
-  margin-block-end: 30px;
-  outline: none;
-  transition: border var(--transition);
-}
-
-.input-field:focus { border-color: var(--black_30); }
-
-textarea.input-field {
-  resize: vertical;
-  min-height: 45px;
-  height: 45px;
-  max-height: 100px;
-}
-
-.submit-btn {
-  background-color: var(--theme-color);
-  color: var(--white);
-  width: 100%;
-  font-size: var(--fs-17);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
-  padding: 8px 20px;
-  transition: var(--transition);
-}
-
-.submit-btn:is(:hover, :focus) { background-color: var(--black); }
-
-.submit-btn ion-icon { transition: var(--transition); }
-
-.submit-btn:is(:hover, :focus) ion-icon { transform: rotate(-45deg); }
 
 /* Projects Section */
 
